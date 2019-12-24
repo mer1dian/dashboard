@@ -122,17 +122,11 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
     - name: Network
-      description: Blockchain Network
-      closed: true
     - name: API
-      description: RPC, WS, and Lite Client
-      closed: true
     - name: Platform    
     - name: Uncategorized
-      untitled: true
+      untitled: false
     - name: Stats
-      description: Block Explorer, Grafana, and Prometheus 
-      closed: true
   # These are your systems. Change them to
   # change the amount of components.
   #
