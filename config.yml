@@ -124,8 +124,6 @@ params:
     - name: Network
     - name: API
     - name: Platform    
-    - name: Uncategorized
-      untitled: false
     - name: Stats
   # These are your systems. Change them to
   # change the amount of components.
@@ -148,6 +146,14 @@ params:
     - name: Block Explorer 
       description: GraphQL Connection
       category: Stats
+    - name: Control Tower
+      category: Platform
+    - name: Dispatch
+      category: Platform
+    - name: ELD 
+      category: Platform
+    - name: TMS
+      category: Platform
   # What date format to use?
   #
   # Hugo formatting docs:
